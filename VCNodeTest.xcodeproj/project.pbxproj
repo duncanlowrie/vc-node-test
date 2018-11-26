@@ -14,6 +14,7 @@
 		0AED3B8921ABE04D00CB0312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AED3B8721ABE04D00CB0312 /* LaunchScreen.storyboard */; };
 		0AED3B9421ABE04D00CB0312 /* VCNodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED3B9321ABE04D00CB0312 /* VCNodeTestTests.swift */; };
 		0AED3B9F21ABE04D00CB0312 /* VCNodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED3B9E21ABE04D00CB0312 /* VCNodeTestUITests.swift */; };
+		0AED3BAD21ABE16C00CB0312 /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED3BAC21ABE16C00CB0312 /* SceneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0AED3B9A21ABE04D00CB0312 /* VCNodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCNodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AED3B9E21ABE04D00CB0312 /* VCNodeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCNodeTestUITests.swift; sourceTree = "<group>"; };
 		0AED3BA021ABE04D00CB0312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AED3BAC21ABE16C00CB0312 /* SceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				0AED3B7E21ABE04B00CB0312 /* AppDelegate.swift */,
 				0AED3B8021ABE04B00CB0312 /* ViewController.swift */,
+				0AED3BAC21ABE16C00CB0312 /* SceneViewController.swift */,
 				0AED3B8221ABE04B00CB0312 /* Main.storyboard */,
 				0AED3B8521ABE04D00CB0312 /* Assets.xcassets */,
 				0AED3B8721ABE04D00CB0312 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AED3BAD21ABE16C00CB0312 /* SceneViewController.swift in Sources */,
 				0AED3B8121ABE04B00CB0312 /* ViewController.swift in Sources */,
 				0AED3B7F21ABE04B00CB0312 /* AppDelegate.swift in Sources */,
 			);
